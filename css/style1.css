@@ -1,0 +1,47 @@
+ body{
+    background-image: linear-gradient(black, grey);
+  }
+
+    table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #666666;
+      background-color: #161616;
+    } 
+
+    li:last-child {
+      border-right: none;
+    }
+    li {
+      float: left;
+      border-right:1px solid #909090;
+    }
+    
+    li a {
+    display: block;
+     color: white;
+    text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #666666;
+    }
+
+    .active {
+        background-color: #292929
+    }
